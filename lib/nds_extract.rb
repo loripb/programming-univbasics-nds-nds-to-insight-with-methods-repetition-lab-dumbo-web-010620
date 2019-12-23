@@ -53,4 +53,5 @@ def total_gross(source)
   directors.each do |director|
     total_gross += gross_totals[director]
   end
+  total_gross
 end
